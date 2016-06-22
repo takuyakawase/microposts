@@ -1,6 +1,7 @@
 var map;
 var markers = [];
 function initMap() {
+    alert("test");
           var mapDiv = document.getElementById('map');
           var map = new google.maps.Map(mapDiv, {
               center: {lat: 35.7100627, lng: 139.8107004},
@@ -76,7 +77,6 @@ function deleteMarkers() {
             }
             });
 
-var map;
 var directions;
 
 function initialize() {

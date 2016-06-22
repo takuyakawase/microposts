@@ -4,12 +4,14 @@
 <html>
   <script src="./googlemap.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-    <h1>My Google Maps Demo</h1>
       <div id="map"></div>
       
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASSXpxYaHe5s3FmVsyIx9Zk5oRSYK6w6o&callback=initMap">
     </script>
+    <script>
+      initMap();
+      </script>
     <button id="marker-hide">マーカーの非表示</button>
     <button id="marker-show">マーカーの表示</button>
     <button id="marker-del">マーカーの削除</button>
@@ -27,7 +29,7 @@
     </aside>
     
     <div class="col-md-8">
-      <h3>Microposts</h3>
+      <h3><a href="http://www.nanchatte.com/map/routingService.html">Microposts</a></h3>
       <p>
         距離：<span id="iddistance">(計測前)</span>、時間：<span id="idtime">(計測前)</span>
       </p>
